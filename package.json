@@ -1,12 +1,13 @@
 {
   "name": "me",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/ullibodnar/me.git",
   "author": "ullibodnar <ullibodnar@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "cssnano": "^4.1.7",
+    "gh-pages": "^2.0.1",
     "typescript": "^3.1.3"
   }
 }
