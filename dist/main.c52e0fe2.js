@@ -176,7 +176,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../images/author_site_thumb.png":[["author_site_thumb.9f3cbdf9.png","images/author_site_thumb.png"],"images/author_site_thumb.png"],"./../images/tic_tac_toe_game.png":[["tic_tac_toe_game.64927905.png","images/tic_tac_toe_game.png"],"images/tic_tac_toe_game.png"],"./../images/woap_thumb.png":[["woap_thumb.f81e798b.png","images/woap_thumb.png"],"images/woap_thumb.png"],"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -201,9 +201,9 @@ module.bundle.Module = Module;
 var parent = module.bundle.parent;
 
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "" || location.hostname;
+  var hostname = "192.168.1.3" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59049" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50617" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

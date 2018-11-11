@@ -106,11 +106,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"js/index.ts":[function(require,module,exports) {
 var navToggleMobile = document.querySelector(".nav-toggle");
+var header = document.querySelector("header");
 navToggleMobile.onclick = toggleMobileNav;
 
 function toggleMobileNav() {
-  console.log('hi');
   navToggleMobile.classList.toggle("x");
+  header.classList.toggle("toggled");
 }
 },{}],"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -137,9 +138,9 @@ module.bundle.Module = Module;
 var parent = module.bundle.parent;
 
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "" || location.hostname;
+  var hostname = "192.168.1.3" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59049" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50617" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
