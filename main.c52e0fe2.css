@@ -162,7 +162,7 @@ a.nav-link:hover {
 }
 
 .main-content {
-  padding-top: 20px;
+  padding-top: 26px;
   width: 95%;
   margin: 0 auto;
 }
@@ -179,13 +179,18 @@ a.nav-link:hover {
   height: 80px;
 }
 
+.code-block {
+  width: 231px;
+  height: 80px;
+}
+
 .hero-unit p, h1 {
   font-family: 'Source Code Pro', monospace, sans-serif;
   color: #f2f2f2;
 }
 
 .intro-text {
-  margin-top: 10px;
+  margin-top: 26px;
 }
 
 /* Project Example */

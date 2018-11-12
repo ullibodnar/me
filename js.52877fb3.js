@@ -1174,12 +1174,11 @@ function toggleMobileNav() {
 }
 
 var options = {
-  strings: ["", "<p>Hi!^500 I'm</p><h1>Uklii Bodn</h1>", "<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>I build things.</p>", "<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>I create things.</p>", "<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>I write code.</p>"],
+  strings: ["", "<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>^500I build things.</p>", "<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>I create things.</p>", "<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>I write code.</p>"],
   typeSpeed: 50,
   smartBackspace: true,
-  startDelay: 2000,
-  backDelay: 1000,
-  backSpeed: 50,
+  startDelay: 1000,
+  backSpeed: 20,
   showCursor: false
 };
 var typed = new typed_js_1["default"](".typed-content", options);
@@ -1210,7 +1209,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64671" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51683" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
