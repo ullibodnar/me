@@ -201,9 +201,9 @@ module.bundle.Module = Module;
 var parent = module.bundle.parent;
 
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "192.168.1.3" || location.hostname;
+  var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50617" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62084" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

@@ -10,6 +10,8 @@
 
 body {
   background: #f2f2f2;
+  background-image: linear-gradient(to bottom right, #fff, #dcc298, #fdbe41)
+  /* background-image: linear-gradient(to bottom right, #fff, #aa0c18); */
 }
 
 header {
@@ -63,7 +65,16 @@ svg.github, svg.linkedin {
 
 /* burger nav toggle */
 .nav-toggle {
-  margin: 0 20px 0 0;
+  height: 80px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s ease;
+}
+
+.nav-toggle.x {
+  background: #222222;
 }
 
 .nav-toggle .line-1, .line-2, .line-3 {
@@ -82,7 +93,7 @@ svg.github, svg.linkedin {
 }
 
 .x .line-1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  -webkit-transform: translate(0, 9px) rotate(-135deg);
   transform: translate(0, 9px) rotate(-135deg);
   transition: .3s ease;
 }
@@ -93,13 +104,12 @@ svg.github, svg.linkedin {
 }
 
 .x .line-3 {
-  -webkit-transform: rotate(45deg) translate(-9px, -6px);
+  -webkit-transform: translate(0, -9px) rotate(135deg);
   transform: translate(0, -9px) rotate(135deg);
   transition: .3s ease;
 }
 
 nav.navigation {
-  padding: 12px 0;
   width: 100%;
   background: #222;
 }
@@ -113,14 +123,15 @@ nav.navigation {
 a.nav-link {
   list-style: none;
   font-family: 'Source Code Pro', monospace, sans-serif;
-  color: #fff;
+  color: #8f8f8f;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
+  padding: 12px 0 10px 0;
 }
 
 a.nav-link:hover {
-  color: #fc3c63;
-  border-bottom: 1px solid #fc3c63;
+  color: #fff;
+  border-bottom: 2px solid #fff;
 }
 
 .main-content {
