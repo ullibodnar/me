@@ -4,4 +4,4 @@ var t;!function(e,s){"object"==typeof exports&&"object"==typeof module?module.ex
 },{}],"Rgmk":[function(require,module,exports) {
 "use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};exports.__esModule=!0;var t=e(require("typed.js")),r=document.querySelector(".nav-toggle"),s=document.querySelector("header");function l(){r.classList.toggle("x"),s.classList.toggle("toggled")}r.onclick=l;var o={strings:["","<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>^500I build things.</p>","<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>I create things.</p>","<p>Hi! I'm</p><h1>Ulli Bodnar.</h1><p>I write code.</p>"],typeSpeed:50,smartBackspace:!0,startDelay:1e3,backSpeed:20,showCursor:!1},i=new t.default(".typed-content",o);
 },{"typed.js":"nzgf"}]},{},["Rgmk"], null)
-//# sourceMappingURL=/js.c7516ca0.map
+//# sourceMappingURL=/me/js.c7516ca0.map
