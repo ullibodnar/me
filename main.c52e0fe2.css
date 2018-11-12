@@ -10,8 +10,12 @@
 
 body {
   background: #f2f2f2;
-  background-image: linear-gradient(to bottom right, #fff, #dcc298, #dcc298, #ffc655);
+  
   /* background-image: linear-gradient(to bottom right, #fff, #aa0c18); */
+}
+
+main {
+  background-image: linear-gradient(to bottom right, #fff, #dcc298, #dcc298, #ffc655);
 }
 
 header {
