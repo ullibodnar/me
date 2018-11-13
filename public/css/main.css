@@ -313,6 +313,7 @@ footer {
 
   a.see-all p {
     text-align: left;
+    width: auto;
   }
 
   @media screen and (min-width:1100px) {
