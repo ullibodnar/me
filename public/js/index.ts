@@ -20,3 +20,5 @@ var options2 = {
 }
 
 var typed = new Typed(".typed-content", options2);
+
+console.log('Hire Me! ;)')

@@ -30,7 +30,7 @@ canvas {
 }
 
 ::selection {
-  background: #222;
+  background: hsla(0, 100%, 68%, 0.658);
 }
 
 main {
