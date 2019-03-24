@@ -375,7 +375,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          _this2.toggleBlinking(false);
 	
 	          // We're done with this sentence!
-	          if (curStrPos === curString.length) {
+	          if (curStrPos >= curString.length) {
 	            _this2.doneTyping(curString, curStrPos);
 	          } else {
 	            _this2.keepTyping(curString, curStrPos, numChars);
@@ -1210,7 +1210,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65165" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49242" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

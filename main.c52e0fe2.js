@@ -176,7 +176,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../images/baby.jpeg":[["baby.409a1208.jpeg","images/baby.jpeg"],"images/baby.jpeg"],"./../images/learning-code.png":[["learning-code.4e32cdca.png","images/learning-code.png"],"images/learning-code.png"],"./../images/highschool.jpg":[["highschool.ecb7cbb7.jpg","images/highschool.jpg"],"images/highschool.jpg"],"./../images/graduate.png":[["graduate.156681d1.png","images/graduate.png"],"images/graduate.png"],"./../images/working.png":[["working.db5d8184.png","images/working.png"],"images/working.png"],"./../images/flying.png":[["flying.0e871a50.png","images/flying.png"],"images/flying.png"],"./../images/author_site_thumb.png":[["author_site_thumb.9f3cbdf9.png","images/author_site_thumb.png"],"images/author_site_thumb.png"],"./../images/tic_tac_toe_game.png":[["tic_tac_toe_game.64927905.png","images/tic_tac_toe_game.png"],"images/tic_tac_toe_game.png"],"./../images/woap_thumb.png":[["woap_thumb.f81e798b.png","images/woap_thumb.png"],"images/woap_thumb.png"],"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../images/author_site_thumb.png":[["author_site_thumb.9f3cbdf9.png","images/author_site_thumb.png"],"images/author_site_thumb.png"],"./../images/tic_tac_toe_game.png":[["tic_tac_toe_game.64927905.png","images/tic_tac_toe_game.png"],"images/tic_tac_toe_game.png"],"./../images/woap_thumb.png":[["woap_thumb.f81e798b.png","images/woap_thumb.png"],"images/woap_thumb.png"],"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -203,7 +203,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65165" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49242" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
